@@ -1,0 +1,17 @@
+//
+//  ClientB.xcconfig
+//  Main
+//
+//  Created by Renan Germano on 09/07/21.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+#include "../Common.xcconfig"
+
+BUNDLE_DISPLAY_NAME = App B
+BUNDLE_IDENTIFIER = com.sample.b
+API_URL = clientb-api.com
+
+INCLUDED_SOURCE_FILE_NAMES = $(CLIENT_B_ASSETS)

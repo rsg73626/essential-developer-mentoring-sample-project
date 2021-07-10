@@ -1,0 +1,14 @@
+//
+//  Common.xcconfig
+//  Main
+//
+//  Created by Renan Germano on 09/07/21.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+CLIENT_A_ASSETS = $(PROJECT_DIR)/Main/Clients/ClientA/Media.xcassets
+CLIENT_B_ASSETS = $(PROJECT_DIR)/Main/Clients/ClientB/Media.xcassets
+
+EXCLUDED_SOURCE_FILE_NAMES = $(CLIENT_A_ASSETS) $(CLIENT_B_ASSETS)

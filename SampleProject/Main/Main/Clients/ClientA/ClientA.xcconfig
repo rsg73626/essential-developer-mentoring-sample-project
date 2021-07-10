@@ -1,0 +1,17 @@
+//
+//  ClientA.xcconfig
+//  Main
+//
+//  Created by Renan Germano on 09/07/21.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+#include "../Common.xcconfig"
+
+BUNDLE_DISPLAY_NAME = App A
+BUNDLE_IDENTIFIER = com.sample.a
+API_URL = clienta-api.com
+
+INCLUDED_SOURCE_FILE_NAMES = $(CLIENT_A_ASSETS)
