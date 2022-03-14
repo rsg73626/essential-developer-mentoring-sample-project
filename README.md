@@ -2,7 +2,7 @@
 
 This project was created as a guidance for the live mentoring session of the cource Essential Developer by [essentialdeveloper.com](https://www.essentialdeveloper.com). 
 
-Some relevant topics:
+## Mentoring I
 
 - The usage of configuration files (.xcconfig) to generate different apps from the same source code.
 - The separation of responsabilities in differentes projects.
@@ -11,3 +11,10 @@ Some relevant topics:
 - The manner the requests were implemented.
 - The communication of the views and its cells and controller for the HomeView.
 - The lack of tests. 
+
+## Mentoring II
+
+- The current architecture of the project.
+- The wished architecture.
+- How to achive the wished architecture?
+- How to connect the different modules with the main module to reduce the interdependency and improve the modularity?
