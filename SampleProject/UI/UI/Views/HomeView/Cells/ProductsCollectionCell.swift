@@ -62,7 +62,7 @@ extension ProductsCollectionCell: UICollectionViewDataSource, UICollectionViewDe
             return UICollectionViewCell()
         }
         
-        // cell.configure(withProduct: products[indexPath.item]
+        cell.configure(withProduct: products[indexPath.item])
         cell.layer.borderWidth = 1
         cell.layer.borderColor = UIColor.gray.cgColor
         cell.layer.cornerRadius = 10

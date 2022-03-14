@@ -18,14 +18,8 @@
 		DEFF37ED2698C03100E04E45 /* SDK2AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFF37EC2698C03100E04E45 /* SDK2AppDelegate.swift */; };
 		DEFF37F72698C2C500E04E45 /* Analytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEFF37EF2698C2C500E04E45 /* Analytics.framework */; };
 		DEFF37F82698C2C500E04E45 /* Analytics.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DEFF37EF2698C2C500E04E45 /* Analytics.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		DEFF37F92698C2C600E04E45 /* BusinessLogic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEFF37F02698C2C500E04E45 /* BusinessLogic.framework */; };
-		DEFF37FA2698C2C600E04E45 /* BusinessLogic.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DEFF37F02698C2C500E04E45 /* BusinessLogic.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		DEFF37FB2698C2C600E04E45 /* Checkout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEFF37F12698C2C500E04E45 /* Checkout.framework */; };
 		DEFF37FC2698C2C600E04E45 /* Checkout.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DEFF37F12698C2C500E04E45 /* Checkout.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		DEFF37FD2698C2C600E04E45 /* Kit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEFF37F22698C2C500E04E45 /* Kit.framework */; };
-		DEFF37FE2698C2C600E04E45 /* Kit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DEFF37F22698C2C500E04E45 /* Kit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		DEFF37FF2698C2C600E04E45 /* Localized.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEFF37F32698C2C500E04E45 /* Localized.framework */; };
-		DEFF38002698C2C600E04E45 /* Localized.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DEFF37F32698C2C500E04E45 /* Localized.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		DEFF38012698C2C600E04E45 /* Models.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEFF37F42698C2C500E04E45 /* Models.framework */; };
 		DEFF38022698C2C600E04E45 /* Models.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DEFF37F42698C2C500E04E45 /* Models.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		DEFF38032698C2C600E04E45 /* Service.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEFF37F52698C2C500E04E45 /* Service.framework */; };
@@ -43,13 +37,10 @@
 			dstSubfolderSpec = 10;
 			files = (
 				DEFF37F82698C2C500E04E45 /* Analytics.framework in Embed Frameworks */,
-				DEFF38002698C2C600E04E45 /* Localized.framework in Embed Frameworks */,
 				DEFF38022698C2C600E04E45 /* Models.framework in Embed Frameworks */,
-				DEFF37FE2698C2C600E04E45 /* Kit.framework in Embed Frameworks */,
 				DEFF38042698C2C600E04E45 /* Service.framework in Embed Frameworks */,
 				DEFF37FC2698C2C600E04E45 /* Checkout.framework in Embed Frameworks */,
 				DEFF38062698C2C600E04E45 /* UI.framework in Embed Frameworks */,
-				DEFF37FA2698C2C600E04E45 /* BusinessLogic.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -72,10 +63,7 @@
 		DEFF37EA2698BFD100E04E45 /* SDK1AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDK1AppDelegate.swift; sourceTree = "<group>"; };
 		DEFF37EC2698C03100E04E45 /* SDK2AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDK2AppDelegate.swift; sourceTree = "<group>"; };
 		DEFF37EF2698C2C500E04E45 /* Analytics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Analytics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DEFF37F02698C2C500E04E45 /* BusinessLogic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = BusinessLogic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEFF37F12698C2C500E04E45 /* Checkout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Checkout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DEFF37F22698C2C500E04E45 /* Kit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Kit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DEFF37F32698C2C500E04E45 /* Localized.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Localized.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEFF37F42698C2C500E04E45 /* Models.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Models.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEFF37F52698C2C500E04E45 /* Service.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Service.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEFF37F62698C2C500E04E45 /* UI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -88,13 +76,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEFF37F72698C2C500E04E45 /* Analytics.framework in Frameworks */,
-				DEFF37FF2698C2C600E04E45 /* Localized.framework in Frameworks */,
 				DEFF38012698C2C600E04E45 /* Models.framework in Frameworks */,
-				DEFF37FD2698C2C600E04E45 /* Kit.framework in Frameworks */,
 				DEFF38032698C2C600E04E45 /* Service.framework in Frameworks */,
 				DEFF37FB2698C2C600E04E45 /* Checkout.framework in Frameworks */,
 				DEFF38052698C2C600E04E45 /* UI.framework in Frameworks */,
-				DEFF37F92698C2C600E04E45 /* BusinessLogic.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,10 +176,7 @@
 			isa = PBXGroup;
 			children = (
 				DEFF37EF2698C2C500E04E45 /* Analytics.framework */,
-				DEFF37F02698C2C500E04E45 /* BusinessLogic.framework */,
 				DEFF37F12698C2C500E04E45 /* Checkout.framework */,
-				DEFF37F22698C2C500E04E45 /* Kit.framework */,
-				DEFF37F32698C2C500E04E45 /* Localized.framework */,
 				DEFF37F42698C2C500E04E45 /* Models.framework */,
 				DEFF37F52698C2C500E04E45 /* Service.framework */,
 				DEFF37F62698C2C500E04E45 /* UI.framework */,
